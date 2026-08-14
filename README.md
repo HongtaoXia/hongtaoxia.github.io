@@ -7,8 +7,8 @@ Website: https://hongtaoxia.github.io/academic/
 ## Repository structure
 
 - `academic/` — the published academic profile
-- `assets/images/` — the research-video cover image
-- `assets/videos/` — the one-minute system demonstration
+- `assets/images/` — research-video cover images
+- `assets/videos/` — academic project demonstrations
 
 ## Publishing
 
