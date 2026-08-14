@@ -105,6 +105,11 @@ h2 { max-width: 830px; margin-bottom: 18px; color: var(--navy-dark); font-size: 
 .metrics div + div { padding-left: 17px; border-left: 1px solid var(--line); }
 .metrics dt { color: var(--navy); font-family: Georgia, "Times New Roman", serif; font-size: 1.25rem; font-weight: 600; }
 .metrics dd { color: var(--muted); font-size: .7rem; }
+.project-media { max-width: 820px; margin: 31px 0 0; border: 1px solid var(--line); background: white; }
+.research-video { display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; background: var(--navy-dark); object-fit: contain; }
+.project-media figcaption { display: flex; align-items: baseline; justify-content: space-between; gap: 24px; padding: 14px 16px; border-top: 3px solid var(--navy); }
+.project-media figcaption strong { color: var(--navy-dark); font-family: Georgia, "Times New Roman", serif; font-size: .9rem; }
+.project-media figcaption span { max-width: 560px; color: var(--muted); font-size: .72rem; text-align: right; }
 .transfer-note { margin: 25px 0 0; padding: 14px 16px; border-left: 3px solid var(--red); background: #eef1f3; font-size: .85rem; }
 
 .section-dark { color: white; background: var(--navy-dark); }
@@ -171,6 +176,8 @@ h2 { max-width: 830px; margin-bottom: 18px; color: var(--navy-dark); font-size: 
   .metrics { grid-template-columns: 1fr; }
   .metrics div, .metrics div + div { padding: 11px 0; border-left: 0; border-top: 1px solid var(--line); }
   .metrics div:first-child { border-top: 0; }
+  .project-media figcaption { align-items: flex-start; flex-direction: column; gap: 3px; }
+  .project-media figcaption span { text-align: left; }
   .output-list li { grid-template-columns: 1fr; gap: 14px; }
   .output-year { width: 62px; }
   .background-grid { grid-template-columns: 1fr; gap: 38px; }
