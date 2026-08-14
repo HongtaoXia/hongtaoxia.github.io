@@ -120,6 +120,7 @@ h2 { max-width: 830px; margin-bottom: 18px; color: var(--navy-dark); font-size: 
   align-items: start;
 }
 .project-with-media .project-media { max-width: none; margin: 0; }
+.project-primary { background: #f8f9fa; }
 .project-wide { grid-column: 1 / -1; min-height: 0; }
 
 .section-dark { color: white; background: var(--navy-dark); }
