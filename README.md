@@ -1,11 +1,15 @@
-# Hongtao Xia — Academic Homepage
+# Hongtao Xia — Academic Portfolio
 
-Personal academic website hosted with GitHub Pages.
+A focused academic portfolio presenting research in reproducible computer vision, quantitative evaluation, and biomedical image analysis.
 
-## Editing
+Website: https://hongtaoxia.github.io/academic/
 
-- Main content: `index.html`
-- Visual design: `styles.css`
-- Profile image: currently uses the public GitHub profile image
+## Repository structure
 
-After each commit to `main`, GitHub Pages will publish the latest version once Pages is configured to deploy from the root of the `main` branch.
+- `academic/` — the published academic profile
+- `assets/images/` — the research-video cover image
+- `assets/videos/` — the one-minute system demonstration
+
+## Publishing
+
+GitHub Pages serves this repository from the `main` branch. The repository root intentionally has no `index.html`; the academic profile is available only through the `/academic/` path.
